@@ -10,10 +10,13 @@ Proyecto simple para generar un jar con dependencias incluídas.
 Construír y ejecutar.
 
 mvn clean install 
+
 sh startup.sh
 
 Generar el arquetipo desde el proyecto.
 
 mvn archetype:create-from-project
+
 cd target/generated-sources/archetype/
+
 mvn install
