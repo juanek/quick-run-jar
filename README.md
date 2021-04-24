@@ -1,22 +1,26 @@
 **quick-run-jar**
 
-Proyecto simple para generar un jar con dependencias incluídas.
+Generates simple executable jar files with dependencies.
+
 
 - Logback 1.2.3
 - Junit 4.13
 - AssertJ
-- Script de ejecución startup.sh
+- Script startup.sh
 
-Construír y ejecutar.
+Build and run.
 
 mvn clean install 
 
 sh startup.sh
 
-Generar el arquetipo desde el proyecto.
+Generates archetype from project.
 
 mvn archetype:create-from-project
 
 cd target/generated-sources/archetype/
 
 mvn install
+
+
+mvn -DarchetypeCatalog=local archetype:generate

@@ -1,3 +1,6 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
@@ -11,7 +14,7 @@
         </encoder>
     </appender>
 
-    <logger name="ar.com.jekipes" level="INFO" additivity="false">
+    <logger name="${package}" level="INFO" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
     <root level="INFO">
