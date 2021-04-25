@@ -3,7 +3,7 @@
 Generates simple executable jar files with dependencies.
 
 - Logback 1.2.3
-- Junit 4.13
+- Junit 4.13.1
 - AssertJ
 
 
