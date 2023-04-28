@@ -2,7 +2,7 @@
 
 Generates simple executable jar files with dependencies.
 
-- Logback 1.2.3
+- Logback 1.2.9
 - Junit 4.13.1
 - AssertJ
 
@@ -14,6 +14,10 @@ mvn clean install
 ```
 
 **Generate new project**
+
+```sh
+cd new-directory
+```
 
 ```sh
 mvn -DarchetypeCatalog=local archetype:generate
