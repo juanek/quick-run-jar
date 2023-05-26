@@ -7,14 +7,21 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
-  <name>quick-run-jar-archetype</name>
+  <name>Archetype used to generate a jar executable with dependencies</name>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <archetype-packaging.version>3.2.1</archetype-packaging.version>
+  </properties>
 
   <build>
     <extensions>
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>3.2.0</version>
+        <version>${archetype-packaging.version}</version>
       </extension>
     </extensions>
 
@@ -22,7 +29,7 @@
       <plugins>
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>${archetype-packaging.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>

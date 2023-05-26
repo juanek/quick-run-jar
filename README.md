@@ -2,9 +2,10 @@
 
 Generates simple executable jar files with dependencies.
 
-- Logback 1.2.9
-- Junit 4.13.1
-- AssertJ
+- Logback 1.4.7
+- Junit 5.9.1
+- AssertJ 3.24.2
+- Java Version 11
 
 
 **Install archetype in local repo**
